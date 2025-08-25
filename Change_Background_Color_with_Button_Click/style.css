@@ -1,0 +1,19 @@
+#btn-change{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(59, 59, 216);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-disco{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
