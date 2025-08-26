@@ -1,0 +1,26 @@
+.container{
+    width:350px;
+    height: 350px;
+    background-color: rgb(179, 179, 179);
+}
+.card{
+    width:90%;
+    height: 90%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#val{
+    font-size: 50px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
