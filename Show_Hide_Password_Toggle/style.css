@@ -1,0 +1,8 @@
+.pass1-div, .pass2-div{
+    margin-bottom: 10px;
+}
+#pass1, #pass2{
+    padding: 5px;
+    width: 250px;
+    font-size: 16px;
+}
