@@ -1,0 +1,41 @@
+Email Validation Rules
+
+Required Field → Email should not be empty.
+
+Valid Format → Must match standard email pattern (user@domain.com).
+
+At least one "@" symbol.
+
+At least one "." after "@".
+
+Domain name length must be valid.
+
+No Spaces Allowed → Leading, trailing, or inside spaces are invalid.
+
+Length Limit → Typically up to 254 characters max (per RFC standard).
+
+Valid Characters → Should only allow standard email characters: letters, digits, _, ., -, +.
+
+✅ Password Validation Rules
+
+(These can vary depending on project requirements, but here’s the standard secure set.)
+
+Required Field → Password should not be empty.
+
+Minimum Length → Usually 8 characters (sometimes 6 for less strict apps).
+
+Maximum Length → Often 64–128 characters (to avoid DoS or storage issues).
+
+Uppercase Letter Rule → At least 1 uppercase (A–Z).
+
+Lowercase Letter Rule → At least 1 lowercase (a–z).
+
+Number Rule → At least 1 digit (0–9).
+
+Special Character Rule → At least 1 special character (!@#$%^&*()_+=-[]{};:'",.<>/?\|).
+
+No Spaces (Optional) → Many systems disallow whitespace in passwords.
+
+No Common/Weak Passwords → Prevent "123456", "password", "qwerty", etc.
+
+Confirm Password Match → If you have a "Confirm Password" field, both must match.

@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: flex-start;
+}
+
+.rules {
+    flex: 1;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: sticky;
+    top: 2rem;
+}
+
+.rules h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.rules ul {
+    list-style: none;
+}
+
+.rules>ul>li {
+    margin-bottom: 1.5rem;
+}
+
+.rules>ul>li>strong {
+    font-size: 1.1rem;
+    color: #4a5568;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.rules ul ul {
+    margin-left: 0;
+    margin-top: 0.5rem;
+}
+
+.rules ul ul li {
+    padding: 0.4rem 0;
+    color: #718096;
+    font-size: 0.9rem;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.rules ul ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #48bb78;
+    font-weight: bold;
+}
+
+.form-div {
+    flex: 1;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 0;
+    align-self: center;
+}
+
+.form-div h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2d3748;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.form-control {
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.form-control::placeholder {
+    color: #a0aec0;
+}
+
+.form-text {
+    color: #718096;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.form-check {
+    margin: 1.5rem 0;
+}
+
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 4px;
+}
+
+.form-check-input:checked {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.form-check-label {
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .rules {
+        position: static;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .form-div {
+        max-width: 100%;
+        width: 100%;
+        align-self: stretch;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .rules,
+    .form-div {
+        padding: 1.5rem;
+        border-radius: 16px;
+    }
+
+    .rules h1 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-div h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .rules ul ul li {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 0.5rem;
+    }
+
+    .rules,
+    .form-div {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+
+    .rules h1 {
+        font-size: 1.4rem;
+    }
+
+    .form-div h2 {
+        font-size: 1.3rem;
+    }
+
+    .btn-primary {
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+/* Additional animations */
+.rules,
+.form-div {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.form-div {
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Improved focus states for accessibility */
+.form-control:focus,
+.form-check-input:focus,
+.btn-primary:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}

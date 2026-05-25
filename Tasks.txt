@@ -1,0 +1,67 @@
+Week 1: DOM Basics & Events (Foundations)
+
+Day 1: Change Background Color with Button Click
+
+Day 2: Counter App (Increment/Decrement/Reset buttons)
+
+Day 3: Light Bulb Toggle (ON/OFF with click event)
+
+Day 4: Digital Clock (auto-updating with setInterval)
+
+Day 5: Show/Hide Password Toggle
+
+Day 6: Character Counter for Textarea (with max limit)
+
+Day 7: Simple Image Carousel (next/prev button with DOM)
+
+🔹 Week 2: Form Handling & UI Enhancements
+
+Day 8: To-Do List App (Add/Delete tasks with events)
+
+Day 9: Form Validation (Email & Password rules)
+
+Day 10: Modal Popup (open/close with button & overlay click)
+
+Day 11: Accordion Menu (expand/collapse sections)
+
+Day 12: Tooltip on Hover
+
+Day 13: BMI Calculator (Form + DOM manipulation)
+
+Day 14: Dark/Light Theme Toggle (CSS + localStorage)
+
+🔹 Week 3: Event Handling + Advanced DOM
+
+Day 15: Keyboard Key Detector (show pressed key & code)
+
+Day 16: Random Quote Generator (local quotes array)
+
+Day 17: Image Zoom on Hover
+
+Day 18: Drag & Drop Items between two lists
+
+Day 19: Tabs Component (switch content with clicks)
+
+Day 20: Countdown Timer (to specific date)
+
+Day 21: Scroll Progress Bar (track scroll % at top)
+
+🔹 Week 4: Async + APIs + Advanced UI
+
+Day 22: Fetch & Display Random Joke (API call + DOM update)
+
+Day 23: Weather App (fetch weather API by city name)
+
+Day 24: GitHub Profile Finder (API + dynamic DOM)
+
+Day 25: Movie Search App (OMDB API + event input)
+
+Day 26: Infinite Scroll (load more content on scroll)
+
+Day 27: Image Gallery with Modal View (click to enlarge)
+
+Day 28: Quiz App (questions + options + score tracker)
+
+Day 29: Expense Tracker (add/remove + localStorage)
+
+Day 30: Music Player (Play/Pause, Next/Prev with events)
